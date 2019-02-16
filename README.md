@@ -18,50 +18,54 @@ Softwares Used: open source SQLite and R
 
 Variables
 
-Variables	Variable Type	Explanation	Source
-Region	Foreign Key	Region where local authority is located	
-LA Name	Foreign key	Name of the local Authority	
+
+Region	
+
+LA Name	
+
 LA_code 14
-	Primary Key	Local authority Area code before April 2015	EU-referendum result 
-The Electoral Commission
-Pct_Leave	Dependent	Percentage of Leave Outcome	“                     “
-Diff	Dependent	Leave percentage – Remain Percentage	“                     “
-Outcome	Dependent	Whether ‘Leave’ or ‘Remain’	“                     “
+	
+Pct_Leave
+
+Diff
+
+Outcome	
+
 pop_2011
-	Base population	Population according to 2011 Census 	Official Labour Market Statistic: NOMIS
-Young_Age	Independent	Aggregate of the age groups between 16 to 34	“                     “
+	
+Young_Age
+
 middle_age
-	Independent	Aggregate of the age groups between 35 to 49	“                     “
-Older_age	Independent	Age group 50+	“                     “
+	
+Older_age
+
 hh_deprived
-	Independent	Aggregate of deprived households in one or more dimensions	“                     “
-Claimant	Independent	count of Universal Credit and Job Seekers Allowance claimants	“                     “
+	
+Claimant
+
 Economically active
 	
-Base population	16 and over years olds who are active participant in the labour market	“                     “
 Economically in active
-	Independent	16 and over years olds who are not active participant in the labour market	“                     “
-
+	
 ethn_white
-	Independent	Usual residents who are white	“                     “
+	
 Jobsdensity
-	Independent	The numbers of jobs per resident aged 16-64, includes employees, self-employed, government-supported trainees and HM Forces.	“                     “
+	
 White_migrant
-	Independent	White ethnic group migrants living in an area in the year preceding the census	“                     “
+	
 level4andabove
-	Independent	Stock of usual residents over the age of 16 with level 4 and above qualification	“                     “
+	
 noqualifications
-	Independent	Stock of usual residents over the age of 16 with no qualification	“                     “
+	
 abhigher_interm
-	Independent	Approximation of social grade of residents aged 16 to 64 living in a household with managerial/administrative or professional occupation	“                     “
+	
 semi_unskilled
-	Independent	Approximation of social grade of residents aged 16 to 64 living in households who are lowest grade and unemployed	“                     “
-prop_Owned	Independent	Total households who own the occupied accomadation: (outright, mortgage and shared ownership)	“                     “
-socialrented
-	Independent	Total households who rent the occupied accommodation from council and other social rent	“                     “
+	
+prop_Owned	
+	
 Crime
-	Independent	Recorded crime by community safety partnership year ending March 2016.	Office for National statistics
+	
 life_Sat
-	Independent	Mean overall satisfaction with one’s life ranked from 0(no satisfaction) to 10(completely satisfied). 	Office for National Statistics: Estimates of Personal well-being from the Annual Population Survey 2015/16
+	
 disp_inc2016
-	Independent	Gross disposable household income per head,  2016	Office for National statistics
+	
